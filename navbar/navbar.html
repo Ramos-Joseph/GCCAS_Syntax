@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GC Dashboard Header</title>
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+
+    <header class="header-container">
+        <div class="nav-pill" id="navPill">
+            
+            <button class="logo-wrapper" id="logoToggle" aria-label="Toggle navigation">
+                <img src="Resources/admin_Nav_Bar/gc_Logo.png" alt="GC Logo" class="gc-logo">
+            </button>
+
+            <nav class="nav-menu">
+                <button class="nav-item active">
+                    <img src="Resources/icons/dashboard.svg" alt="">
+                    <span>Dashboard</span>
+                </button>
+
+                <button class="nav-item">
+                    <img src="Resources/icons/book.svg" alt="">
+                    <span>Book</span>
+                </button>
+
+                <button class="nav-item">
+                    <img src="Resources/icons/calendar.svg" alt="">
+                    <span>Appointments</span>
+                </button>
+
+                <button class="nav-item">
+                    <img src="Resources/icons/logout.svg" alt="">
+                    <span>Logout</span>
+                </button>
+            </nav>
+
+            <button class="end-accent" id="endToggle" aria-label="Toggle navigation"></button>
+
+        </div>
+    </header>
+
+    <script src="navbar.js" defer></script>
+</body>
+</html>
